@@ -9,7 +9,6 @@
     nixpkgs.url = "github:nixos/nixpkgs/release-21.11";
     devshell.url = "github:numtide/devshell";
     beautysh.url = "github:lovesegfault/beautysh";
-    beautysh.inputs.utils.url = "github:numtide/flake-utils";
   };
 
   outputs = { self, nixpkgs, devshell, beautysh, ... }:
